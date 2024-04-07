@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "calculator-app",
-    "slug": "calculator-app",
+    "name": "poly-weather",
+    "slug": "poly-weather",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#002B64"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,11 +20,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#002B64"
+      },
+      "package": "com.polybotics.polyweather"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b44662a1-eaa7-43fc-bd61-0831b2c39a85"
+      }
     }
   }
 }
